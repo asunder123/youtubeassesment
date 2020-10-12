@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      working-directory: ${runner.working-directory}/java
+      working-directory: ${runner.working-directory}
       shell: bash
-      run: ls -a
+      run: pwd
         
