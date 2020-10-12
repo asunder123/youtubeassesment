@@ -24,6 +24,6 @@ jobs:
     - name: Build with Maven
       working-directory: ${runner.working-directory}
       shell: bash
-      run: pwd
+      run: sudo ls
       
         
