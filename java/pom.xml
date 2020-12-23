@@ -11,11 +11,11 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <project.youtube.version>v3-rev182-1.22.0</project.youtube.version>
-        <project.youtube.analytics.version>v1-rev63-1.22.0</project.youtube.analytics.version>
-        <project.youtube.reporting.version>v1-rev10-1.22.0</project.youtube.reporting.version>
-        <project.http.version>1.20.0</project.http.version>
-        <project.oauth.version>1.20.0</project.oauth.version>
+        <project.youtube.version>v3-rev20180511-1.28.0</project.youtube.version>
+        <project.youtube.analytics.version>v1beta1-rev20180805-1.28.0</project.youtube.analytics.version>
+        <project.youtube.reporting.version>v1-rev20180601-1.28.0</project.youtube.reporting.version>
+        <project.http.version>1.28.0</project.http.version>
+        <project.oauth.version>1.28.0</project.oauth.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -87,7 +87,7 @@
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
-                    <compilerArgument></compilerArgument>
+                    <compilerArgument/>
                 </configuration>
             </plugin>
         </plugins>
