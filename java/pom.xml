@@ -27,8 +27,7 @@
             <artifactId>google-api-services-youtube</artifactId>
             <version>${project.youtube.version}</version>
         </dependency>
-
-        <!-- Required for any code that makes calls to the YouTube Analytics API -->
+      <!-- Required for any code that makes calls to the YouTube Analytics API -->
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-youtubeAnalytics</artifactId>
@@ -66,7 +65,7 @@
         </dependency>
     </dependencies>
   <build>
-        <plugins>
+      <plugins>
             <!-- Forces Maven to use Java 1.6 -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
