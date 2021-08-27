@@ -8,11 +8,11 @@
     <name>youtube-api-cmdline-samples</name>
     <url>http://maven.apache.org</url>
          <properties>
-        <project.youtube.version>v3-rev20180511-1.28.0</project.youtube.version>
-        <project.youtube.analytics.version>v1beta1-rev20180805-1.28.0</project.youtube.analytics.version>
-        <project.youtube.reporting.version>v1-rev20180601-1.28.0</project.youtube.reporting.version>
-        <project.http.version>1.28.0</project.http.version>
-        <project.oauth.version>1.31.0</project.oauth.version>
+        <project.youtube.version>v3-rev20210624-1.32.1</project.youtube.version>
+        <project.youtube.analytics.version>v2-rev20210510-1.32.1</project.youtube.analytics.version>
+        <project.youtube.reporting.version>v1-rev20200801-1.32.1</project.youtube.reporting.version>
+        <project.http.version>1.40.0</project.http.version>
+        <project.oauth.version>1.32.1</project.oauth.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <repositories>
